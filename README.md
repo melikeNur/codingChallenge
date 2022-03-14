@@ -3,6 +3,7 @@ It is a backend application where a customer can create new product, view all pr
 ### Strategy
 #### The client registers first and then logs in. After login, a jwt token is returned based on the email address.
 #### The token that comes out after login is sent from the header(Authorization) in every endpoint so that the client can update or delete only its own products.
+#### The deletion and update processes are based on the unique serial number of each product.
 ### Technologies used in this project:
 #### BackEnd Framework: SpringBoot
 #### ORM: Hibernate
